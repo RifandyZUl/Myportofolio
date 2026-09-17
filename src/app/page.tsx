@@ -4,7 +4,6 @@
 
 import React, { useState } from "react";
 import Image from "next/image";
-import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
 
 // Import components and blocks
@@ -90,31 +89,6 @@ export default function Home() {
             animationDuration={0.3}
             pauseBetweenAnimations={1}
           />
-        </div>
-
-        {/* Hero Call to Action Buttons: View/Download CV & Contact */}
-        <div className="flex flex-wrap items-center justify-center gap-3.5 mt-6 md:mt-8 z-20 relative opacity-0 animate-fadeIn" style={{ animationDelay: '1s' }}>
-          <a
-            href="/cv/CV_Zul_Tiandra_Rifandy.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="group inline-flex items-center gap-2 px-6 py-3 rounded-full bg-white text-black font-semibold text-sm hover:bg-gray-100 transition-all duration-300 shadow-[0_0_25px_rgba(255,255,255,0.2)] hover:shadow-[0_0_35px_rgba(255,255,255,0.4)] hover:scale-105 active:scale-95"
-          >
-            <svg className="w-4 h-4 text-black transition-transform duration-200 group-hover:-translate-y-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.2}>
-              <path strokeLinecap="round" strokeLinejoin="round" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-            </svg>
-            <span>Lihat / Unduh CV</span>
-          </a>
-
-          <Link
-            href="/Contact"
-            className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-white/[0.06] hover:bg-white/[0.12] border border-white/20 hover:border-white/40 text-white font-medium text-sm transition-all duration-300 backdrop-blur-sm hover:scale-105 active:scale-95"
-          >
-            <span>Hubungi Saya</span>
-            <svg className="w-4 h-4 text-gray-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-              <path strokeLinecap="round" strokeLinejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
-            </svg>
-          </Link>
         </div>
 
         {/* CSS Keyframes */}

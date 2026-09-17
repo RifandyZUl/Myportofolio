@@ -98,33 +98,6 @@ export default function Contact() {
             </div>
           )}
 
-          {/* Curriculum Vitae (CV) Section */}
-          <div className="p-4 rounded-xl bg-white/[0.04] border border-white/[0.12] flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3.5 mt-4 backdrop-blur-sm">
-            <div>
-              <div className="text-sm font-semibold text-white flex items-center gap-2">
-                <span>📄</span>
-                <span>Curriculum Vitae (CV)</span>
-              </div>
-              <p className="text-xs text-gray-400 mt-0.5">Tinjau resume profesional & kualifikasi teknis (PDF)</p>
-            </div>
-            <div className="flex items-center gap-2">
-              <a
-                href="/cv/CV_Zul_Tiandra_Rifandy.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="px-3.5 py-1.5 rounded-lg bg-white/[0.1] hover:bg-white/[0.2] border border-white/20 text-xs font-medium text-white transition-all"
-              >
-                Lihat CV
-              </a>
-              <a
-                href="/cv/CV_Zul_Tiandra_Rifandy.pdf"
-                download="CV_Zul_Tiandra_Rifandy.pdf"
-                className="px-3.5 py-1.5 rounded-lg bg-white text-black hover:bg-gray-200 text-xs font-semibold transition-all shadow-sm"
-              >
-                Unduh PDF
-              </a>
-            </div>
-          </div>
 
           {/* Social Media Links */}
           <div className="mt-8">
