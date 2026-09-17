@@ -3,7 +3,7 @@
 # 🌐 Zul Tiandra Rifandy — Personal Portfolio Website
 ### AI Engineer & Software Engineer
 
-[![Next.js](https://img.shields.io/badge/Next.js-15.3.1-black?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
+[![Next.js](https://img.shields.io/badge/Next.js-15.5.25-black?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4+-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 [![Framer Motion](https://img.shields.io/badge/Framer_Motion-12.0+-FF0055?style=for-the-badge&logo=framer&logoColor=white)](https://www.framer.com/motion/)
@@ -13,13 +13,13 @@
   Website portofolio interaktif dan modern yang menampilkan kapabilitas teknis, riset medis berbasis kecerdasan buatan (*AI/Deep Learning*), serta rekayasa sistem perangkat lunak berskala produksi (*Software Engineering*).
 </p>
 
-[✨ Demo Langsung](https://github.com/RifandyZUl/Myportofolio) • [📄 Lihat / Unduh CV](public/cv/CV_Zul_Tiandra_Rifandy.pdf) • [📫 Hubungi Saya](https://mail.google.com/mail/?view=cm&fs=1&to=rzultiandra@gmail.com)
+[Demo Langsung](https://github.com/RifandyZUl/Myportofolio) • [Lihat / Unduh CV](public/cv/CV_Zul_Tiandra_Rifandy.pdf) • [Hubungi Saya](https://mail.google.com/mail/?view=cm&fs=1&to=rzultiandra@gmail.com)
 
 </div>
 
 ---
 
-## 📌 Daftar Isi
+## Daftar Isi
 1. [Tentang Portofolio](#-tentang-portofolio)
 2. [Fitur Utama](#-fitur-utama)
 3. [Teknologi & Tools](#-teknologi--tools)
@@ -30,7 +30,7 @@
 
 ---
 
-## 👨‍💻 Tentang Portofolio
+## Tentang Portofolio
 
 Website ini dirancang secara khusus untuk merepresentasikan keahlian multidisiplin **Zul Tiandra Rifandy**:
 * **Artificial Intelligence & Computer Vision**: Riset mendalam pada segmentasi citra medis 3D MRI (*BraTS 2020*), arsitektur hibrida *CNN-Transformer* (seperti *CKD-TransBTS* dan *RSU2-Net*), optimasi *hyperparameter* melalui metode *Taguchi Design of Experiment (DOE)*, hingga reduksi parameter dan akselerasi inferensi model untuk penerapan klinis.
@@ -39,10 +39,10 @@ Website ini dirancang secara khusus untuk merepresentasikan keahlian multidisipl
 
 ---
 
-## ⚡ Fitur Utama
+## Fitur Utama
 
 - **Interactive Hero & TrueFocus Animations**: Animasi teks fokus dinamis yang mempertegas spesialisasi di bidang *AI-Engineer* dan *Software-Engineer*.
-- **Integrated CV Access**: Tombol *Lihat / Unduh CV* instan pada Hero Section, About Me, Halaman Kontak, dan Floating Dock yang terhubung langsung ke file resume PDF.
+- **Integrated CV Access**: Tombol *Lihat CV Lengkap (PDF)* dan *Unduh File* pada section About Me serta Floating Dock yang terhubung langsung ke file resume PDF.
 - **Categorized Projects Showcase**: Tampilan kartu proyek interaktif dengan mockup fotorealistik, ringkasan arsitektur teknis, serta tag kategori (*AI & Deep Learning* dan *Software Engineering*).
 - **Skills & Frameworks Logo Grid**: Grid logo teknologi modern tanpa teks berlebih, mencakup ekosistem Python, PyTorch, FastAPI, Node.js, PostgreSQL, Docker, TypeScript, React, dan Next.js.
 - **Pre-filled Professional Gmail Inquiry**: Integrasi link Gmail cerdas yang otomatis mengisi subjek dan draf pesan profesional untuk mempermudah rekruter atau klien mengirim penawaran kerja sama.
