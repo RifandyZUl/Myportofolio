@@ -77,7 +77,77 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <title>Zul Tiandra Rifandy | AI &amp; Software Engineer</title>
-        <meta name="description" content="Portofolio Zul Tiandra Rifandy — AI/Machine Learning Engineer & Full Stack Software Developer, spesialis Deep Learning, Computer Vision, dan Sistem Terdistribusi." />
+        <meta name="description" content="Portofolio resmi Zul Tiandra Rifandy — AI Engineer &amp; Full Stack Software Developer, spesialis Deep Learning, 3D Medical Imaging, dan Scalable Backend Systems." />
+        <meta name="keywords" content="Zul Tiandra Rifandy, Zul Tiandra, Rifandy, AI Engineer, Software Engineer, Machine Learning, Deep Learning, Computer Vision, Tangerang, Indonesia, Portfolio" />
+        <meta name="author" content="Zul Tiandra Rifandy" />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://www.zultiandrarifandy.my.id" />
+
+        {/* Open Graph / Facebook */}
+        <meta property="og:type" content="profile" />
+        <meta property="og:url" content="https://www.zultiandrarifandy.my.id" />
+        <meta property="og:site_name" content="Zul Tiandra Rifandy Portfolio" />
+        <meta property="og:title" content="Zul Tiandra Rifandy | AI &amp; Software Engineer" />
+        <meta property="og:description" content="Portofolio resmi Zul Tiandra Rifandy — AI Engineer &amp; Full Stack Software Developer, spesialis Deep Learning dan Scalable Backend Systems." />
+        <meta property="og:image" content="https://www.zultiandrarifandy.my.id/photos/Ipan2.jpg" />
+        <meta property="og:locale" content="id_ID" />
+
+        {/* Twitter */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:url" content="https://www.zultiandrarifandy.my.id" />
+        <meta name="twitter:title" content="Zul Tiandra Rifandy | AI &amp; Software Engineer" />
+        <meta name="twitter:description" content="Portofolio resmi Zul Tiandra Rifandy — AI Engineer &amp; Full Stack Software Developer." />
+        <meta name="twitter:image" content="https://www.zultiandrarifandy.my.id/photos/Ipan2.jpg" />
+
+        {/* Schema.org JSON-LD Structured Data for Google Search */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@graph": [
+                {
+                  "@type": "Person",
+                  "@id": "https://www.zultiandrarifandy.my.id/#person",
+                  "name": "Zul Tiandra Rifandy",
+                  "alternateName": ["Zul Tiandra", "Rifandy", "rzultiandra"],
+                  "url": "https://www.zultiandrarifandy.my.id",
+                  "image": "https://www.zultiandrarifandy.my.id/photos/Ipan2.jpg",
+                  "jobTitle": "AI Engineer & Software Engineer",
+                  "description": "AI/Machine Learning Engineer & Full Stack Software Developer, spesialis Deep Learning, 3D Medical Image Segmentation, dan Sistem Terdistribusi.",
+                  "sameAs": [
+                    "https://github.com/RifandyZUl",
+                    "https://www.linkedin.com/in/zul-tiandra-rifandy/"
+                  ],
+                  "knowsAbout": [
+                    "Artificial Intelligence",
+                    "Deep Learning",
+                    "Computer Vision",
+                    "Medical Image Segmentation",
+                    "Software Engineering",
+                    "Python",
+                    "PyTorch",
+                    "FastAPI",
+                    "PostgreSQL",
+                    "Next.js",
+                    "TypeScript",
+                    "Docker"
+                  ]
+                },
+                {
+                  "@type": "WebSite",
+                  "@id": "https://www.zultiandrarifandy.my.id/#website",
+                  "url": "https://www.zultiandrarifandy.my.id",
+                  "name": "Zul Tiandra Rifandy | AI & Software Engineer",
+                  "description": "Portofolio resmi Zul Tiandra Rifandy — AI & Software Engineer.",
+                  "publisher": {
+                    "@id": "https://www.zultiandrarifandy.my.id/#person"
+                  }
+                }
+              ]
+            })
+          }}
+        />
       </head>
       <body
         // Added bg-black class for black background
