@@ -61,7 +61,7 @@ export const projects: Project[] = [
   {
     id: 3,
     number: '03',
-    title: 'RAG Fact-Checking System — Verifikasi Hoaks Berbasis RAG & Gemini LLM',
+    title: 'RAG Fact-Checking System',
     subtitle: 'Proyek Mandiri • Retrieval-Augmented Generation & Generative AI',
     category: 'both',
     categoryLabel: 'AI Engineering & GenAI / RAG',
