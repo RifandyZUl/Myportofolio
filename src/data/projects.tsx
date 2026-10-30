@@ -75,7 +75,7 @@ export const projects: Project[] = [
       '/techstack/streamlit.svg',
       '/techstack/huggingface.svg',
     ],
-    imageSrc: '/proj/RAG-FactChecking.jpg',
+    imageSrc: '/proj/RAG-FactChecking.png',
     link: 'https://github.com/RifandyZUl/RAG_FactChecking',
     size: 'large',
   },
