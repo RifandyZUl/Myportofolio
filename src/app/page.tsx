@@ -40,6 +40,9 @@ const techSkillsData = [
   { name: 'CSS3', path: '/techstack/css.svg' },
   { name: 'Git & GitHub', path: '/techstack/git.svg' },
   { name: 'OpenAI', path: '/techstack/openai.svg' },
+  { name: 'Google Gemini', path: '/techstack/gemini.svg' },
+  { name: 'Streamlit', path: '/techstack/streamlit.svg' },
+  { name: 'Hugging Face', path: '/techstack/huggingface.svg' },
   { name: 'Google Cloud', path: '/techstack/gcp.svg' },
   { name: 'WebSockets', path: '/techstack/websockets.svg' },
 ];

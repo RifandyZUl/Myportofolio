@@ -61,6 +61,27 @@ export const projects: Project[] = [
   {
     id: 3,
     number: '03',
+    title: 'RAG Fact-Checking System — Verifikasi Hoaks Berbasis RAG & Gemini LLM',
+    subtitle: 'Proyek Mandiri • Retrieval-Augmented Generation & Generative AI',
+    category: 'both',
+    categoryLabel: 'AI Engineering & GenAI / RAG',
+    badge: 'Hugging Face Spaces • ZeroGPU & 600+ Tests',
+    metrics: 'ChromaDB HNSW • BAAI/bge-m3 • Gemini API • Wilson Score',
+    description:
+      'Sistem verifikasi klaim dan pesan hoaks berbahasa Indonesia berbasis Retrieval-Augmented Generation (RAG) dengan pencarian semantik arsip TurnBackHoax.id dan penalaran Google Gemini LLM. Mengintegrasikan ChromaDB (persistent HNSW indexing), embedding BAAI/bge-m3, UI Streamlit & Gradio, web scraping TurnBackHoax, serta 600+ pengujian unit Pytest di Hugging Face Spaces.',
+    techstack: [
+      '/techstack/python.svg',
+      '/techstack/gemini.svg',
+      '/techstack/streamlit.svg',
+      '/techstack/huggingface.svg',
+    ],
+    imageSrc: '/proj/RAG-FactChecking.jpg',
+    link: 'https://github.com/RifandyZUl/RAG_FactChecking',
+    size: 'large',
+  },
+  {
+    id: 4,
+    number: '04',
     title: 'Optimisasi Konfigurasi RSU2-Net Berbasis Attention via Taguchi',
     subtitle: 'Proyek Mandiri • Deep Learning & Hyperparameter Tuning',
     category: 'ai',
@@ -78,8 +99,8 @@ export const projects: Project[] = [
     size: 'medium',
   },
   {
-    id: 4,
-    number: '04',
+    id: 5,
+    number: '05',
     title: 'Web-Based News Portal & Content Management System',
     subtitle: 'PT Winnicode Garuda Teknologi • Full Stack Developer Intern',
     category: 'software',
