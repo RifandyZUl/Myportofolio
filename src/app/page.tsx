@@ -304,8 +304,7 @@ export default function Home() {
           </div>
 
           {/* Projects Uniform Grid */}
-          <motion.div
-            layout
+          <div
             className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 w-full max-w-6xl mx-auto px-4 md:px-8 mt-6 mb-20"
           >
             <AnimatePresence mode="popLayout">
@@ -313,7 +312,7 @@ export default function Home() {
                 <ProjectCard key={project.id} project={project} index={index} />
               ))}
             </AnimatePresence>
-          </motion.div>
+          </div>
         </section>
       </main>
 

@@ -95,8 +95,11 @@ body {
 }
 
 
-html {
-  scroll-behavior: smooth;
+/* Native high-performance scrolling without wheel input lag */
+@media (prefers-reduced-motion: no-preference) {
+  html:focus-within {
+    scroll-behavior: smooth;
+  }
 }
 
 /* Optional: Animation styles (keep commented out unless needed) */

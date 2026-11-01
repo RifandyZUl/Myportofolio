@@ -25,11 +25,11 @@ const ProjectCard: React.FC<ProjectCardProps> = React.memo(({ project, index }) 
   return (
     <motion.div
       onClick={handleCardClick}
-      className="group relative overflow-hidden rounded-3xl border border-white/[0.08] bg-[#0c0c14]/85 hover:bg-[#12121c] backdrop-blur-md p-5 flex flex-col justify-between transition-all duration-300 cursor-pointer hover:border-white/25 shadow-xl hover:shadow-2xl"
+      className="group relative overflow-hidden rounded-3xl border border-white/[0.08] bg-[#0c0c14] hover:bg-[#12121c] p-5 flex flex-col justify-between transition-all duration-300 cursor-pointer hover:border-white/25 shadow-xl hover:shadow-2xl transform-gpu will-change-transform"
       initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, margin: '-30px' }}
-      transition={{ duration: 0.4, delay: index * 0.06 }}
+      transition={{ duration: 0.35, delay: index * 0.05 }}
       whileHover={{ y: -4 }}
     >
       {/* ── Top Section: Preview Image with status badge overlays ── */}
@@ -38,6 +38,7 @@ const ProjectCard: React.FC<ProjectCardProps> = React.memo(({ project, index }) 
           src={project.imageSrc}
           alt={project.title}
           fill
+          quality={85}
           className={`${
             isMedicalScan ? 'object-contain p-1.5' : 'object-cover'
           } transition-transform duration-500 group-hover:scale-105 group-hover:brightness-105`}
