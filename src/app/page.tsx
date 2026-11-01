@@ -45,6 +45,9 @@ const techSkillsData = [
   { name: 'Hugging Face', path: '/techstack/huggingface.svg' },
   { name: 'Google Cloud', path: '/techstack/gcp.svg' },
   { name: 'WebSockets', path: '/techstack/websockets.svg' },
+  { name: 'Vite', path: '/techstack/vite.svg' },
+  { name: 'Prisma ORM', path: '/techstack/prisma.svg' },
+  { name: 'Supabase', path: '/techstack/supabase.svg' },
 ];
 
 export default function Home() {
